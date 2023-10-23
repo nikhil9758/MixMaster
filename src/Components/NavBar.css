@@ -1,0 +1,20 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 57px;
+}
+.nav__links{
+    display: flex;
+    list-style-type: none;
+}
+.nav__links> li{
+    padding-right: 26px;
+}
+
+.nav__links> li>a{
+    text-decoration: none;
+}
+
+.active{
+    color: green;
+}
